@@ -45,7 +45,7 @@ class C extends B {
         System.out.println("bInstanceVariable of B after: " + B.bInstance.bInstanceVariable);
         System.out.println("aInstanceVariable of A earlier: " + A.aInstance.aInstanceVariable);
         //Now we are changing the aInstanceVariable of c which is inherited from A
-       // c.aInstanceVariable="aInstance After modified by C";
+        c.aInstanceVariable="aInstance After modified by C";
         System.out.println("bInstanceVariable of A after: " + A.aInstance.aInstanceVariable);
     }
 }
